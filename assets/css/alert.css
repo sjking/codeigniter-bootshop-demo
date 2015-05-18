@@ -1,0 +1,9 @@
+/* custom alert styling
+ * @author Steve King
+ */
+ .alert-hidden {
+ 	position: fixed;
+    top: 45%;
+    z-index: 9999;
+    border: 1px solid #000;
+ }

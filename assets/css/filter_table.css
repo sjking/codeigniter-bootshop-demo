@@ -1,0 +1,117 @@
+/* 
+ * Styles for the filter table interfaces
+ * @author Steve King
+ */
+
+.pagination-links {
+    text-align: center;
+}
+
+.results-count {
+    text-align: right;
+    margin: 0.6em 0;
+}
+
+.pagination-links .pagination {
+    margin: 0;
+}
+
+.loading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#filter-panel {
+    margin-bottom: 1.6em;
+    padding-bottom: 1.6em;
+    border-bottom: 1px solid #eee;
+}
+
+#filter-panel-body {
+    padding: 0;
+}
+
+#filter-panel .form-group > div {
+    margin: 0;
+    padding-left: 0;
+}
+
+#sorting-header a {
+    text-decoration: none;
+    color: #000;
+}
+
+#sorting-header a:hover {
+    color: #A6192E;
+}
+
+#sorting-header th {
+    padding: 0;
+}
+
+#filter-button-group {
+    padding: 0;
+}
+
+.sorting {
+    float: right;
+    text-align: center;
+}
+
+.sorting-disabled {
+    background:url(../img/sorting/sort_arrow_disabled.gif) no-repeat top left;
+    display: inline-block;
+    height: 12px;
+    width: 14px;
+    zoom: 1;
+    *display:inline;
+}
+
+.sorting-ascending {
+    background:url(../img/sorting/sort_arrow_up.gif) no-repeat top left;
+    display: inline-block;
+    height: 12px;
+    width: 14px;
+    zoom: 1;
+    *display:inline;
+}
+
+.sorting-descending {
+    background:url(../img/sorting/sort_arrow_down.gif) no-repeat top left;
+    display: inline-block;
+    height: 12px;
+    width: 14px;
+    zoom: 1;
+    *display:inline;
+}
+
+form.filter-table-form {
+/*    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 0.6em;*/
+}
+
+.filter-table a {
+    display: block;
+    text-decoration: none;
+}
+
+.sorting-header-container {
+    padding: 0.6em;
+}
+
+.sorting-header-container-hover {
+    background-color: #fafafa;
+}
+
+.sorting-header-container-selected {
+    background-color: #f6f6f6;
+    color: #A6192E;
+}
+
+#filter-form-container {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 0.6em 1.6em;
+}
