@@ -13,9 +13,9 @@
     <link href="<?php echo base_url('assets/css/bootstrap-theme.min.css') ?>" rel="stylesheet">
 
     <?php if(isset($styleSheets)){ ?>
-      <?foreach ($styleSheets as $css):?>
+      <?php foreach ($styleSheets as $css) { ?>
         <link href="<?php echo base_url("assets/css/{$css}") ?>" rel="stylesheet">
-      <?endforeach?>
+      <?php } ?>
     <?php } ?>
 
     <link href="<?php echo base_url('assets/css/sticky-footer.css') ?>" rel="stylesheet">
@@ -27,9 +27,9 @@
     <script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
     
     <?php if(isset($javaScript)){ ?>
-      <?foreach ($javaScript as $js):?>
+      <?php foreach ($javaScript as $js) { ?>
         <script src="<?php echo base_url("assets/js/{$js}") ?>"></script>
-      <?endforeach?>
+      <?php } ?>
     <?php } ?>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
