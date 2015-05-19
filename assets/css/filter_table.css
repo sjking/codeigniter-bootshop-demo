@@ -12,6 +12,10 @@
     margin: 0.6em 0;
 }
 
+#results-panel {
+    margin-bottom: 1.6em;
+}
+
 .pagination-links .pagination {
     margin: 0;
 }
