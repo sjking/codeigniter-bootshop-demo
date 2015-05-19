@@ -49,7 +49,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-            <a class="navbar-brand" href="site-template.html">CodeIgniter Bootshop</a>
+            <a class="navbar-brand" href="/">CodeIgniter Bootshop</a>
           </div>
           <div class="navbar-collapse collapse" id="navbar">
          

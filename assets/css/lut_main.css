@@ -1,0 +1,80 @@
+/* styles for the main page of the lut administration interfaces
+ * @author Steve King
+ */
+.pagination-links {
+	text-align: center;
+	
+}
+
+.results-count {
+	text-align: right;
+}
+
+.pagination-links .pagination {
+	margin: 0;
+}
+
+.loading {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#filter-panel {
+	margin-bottom: 1.6em;
+	padding-bottom: 1.6em;
+	border-bottom: 1px solid #eee;
+}
+
+#filter-panel-body {
+	padding: 0;
+}
+
+#filter-panel .form-group > div {
+	margin: 0;
+	padding-left: 0;
+}
+
+#results-panel {
+	padding-bottom: 1em;
+}
+
+#sorting-header a {
+	text-decoration: none;
+	color: #000;
+}
+
+#sorting-header a:hover {
+	color: #A6192E;
+}
+
+#filter-button-group {
+	padding: 0;
+}
+
+.sorting-disabled {
+	background:url(../img/sorting/sort_arrow_disabled.gif) no-repeat top left;
+	display: inline-block;
+	height: 12px;
+	width: 14px;
+	zoom: 1;
+	*display:inline;
+}
+
+.sorting-ascending {
+	background:url(../img/sorting/sort_arrow_up.gif) no-repeat top left;
+	display: inline-block;
+	height: 12px;
+	width: 14px;
+	zoom: 1;
+	*display:inline;
+}
+
+.sorting-descending {
+	background:url(../img/sorting/sort_arrow_down.gif) no-repeat top left;
+	display: inline-block;
+	height: 12px;
+	width: 14px;
+	zoom: 1;
+	*display:inline;
+}
