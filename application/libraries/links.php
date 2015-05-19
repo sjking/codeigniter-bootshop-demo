@@ -12,6 +12,7 @@ class Links
 	{
 		$this->links = array();
 		$this->CI =& get_instance();
+		$this->CI->load->helper('url');
 	}
 
 	/* read in a file of links, the file is a csv file separated by ';':
@@ -77,6 +78,6 @@ class Link
 
 	public function link()
 	{
-		return $this->link;
+		return base_url($this->link);
 	}
 }

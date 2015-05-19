@@ -49,12 +49,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-            <a class="navbar-brand" href="/">CodeIgniter Bootshop</a>
+            <a class="navbar-brand" href="<?= base_url() ?>">CodeIgniter Bootshop</a>
           </div>
           <div class="navbar-collapse collapse" id="navbar">
          
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/contents">Contents</a></li>
+              <li><a href="<?= base_url('contents') ?>">Contents</a></li>
               <li><a href="#">About</a></li>
 
             </ul>
